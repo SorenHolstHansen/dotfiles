@@ -1,0 +1,24 @@
+[[language]]
+name = "typescript"
+config = { enable = true, lint = true, unstable = true }
+roots = ["package.json", "tsconfig.json"]
+auto-format = true
+language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescript" }
+
+[[language]]
+name = "tsx"
+config = { enable = true, lint = true, unstable = true }
+roots = ["package.json", "tsconfig.json"]
+auto-format = true
+language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescriptreact" }
+
+[[language]]
+name = "svelte"
+config = { enable = true, lint = true, unstable = true }
+roots = ["package.json"]
+auto-format = true
+
+[[language]]
+name = "prisma"
+config = { enable = true, lint = true, unstable = true }
+auto-format = true

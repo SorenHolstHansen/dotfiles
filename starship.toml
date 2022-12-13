@@ -1,0 +1,21 @@
+[character]
+success_symbol = "[✖](green)"
+error_symbol = "[✖](red)"
+
+[git_branch]
+symbol = " "
+
+[git_status]
+disabled = true
+
+[nodejs]
+detect_extensions = ["js", "mjs", "cjs", "ts", "jsx", "tsx"]
+
+[gcloud]
+disabled = true
+
+[custom.svelte]
+files = ["svelte.config.js"]
+extensions = ["svelte"]
+style = "bold orange"
+symbol = "S "
