@@ -2,4 +2,4 @@
 
 Various config files.
 
-clone inside ~/.config
+Put inside ~/.config
