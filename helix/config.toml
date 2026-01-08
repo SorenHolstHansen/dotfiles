@@ -6,6 +6,9 @@ mouse = false
 color-modes = true
 bufferline = "always"
 
+[editor.statusline]
+right = ["selections", "position", "spacer", "version-control"]
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
@@ -36,6 +39,12 @@ pageup = "no_op"
 pagedown = "no_op"
 home = "no_op"
 end = "no_op"
+C-r = [
+    ":insert-output scooter --no-stdin >/dev/tty",
+    ":redraw",
+    ":reload-all"
+]
 
 [editor.smart-tab]
 enable = false
+
