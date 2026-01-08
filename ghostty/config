@@ -1,0 +1,5 @@
+theme = One Half Dark
+font-family = FiraMono Nerd Font
+font-size = 14
+# Rename tab with cmd+r
+keybind = cmd+r=prompt_surface_title
