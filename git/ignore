@@ -1,0 +1,2 @@
+# Place this file in ~/.config/git/ignore
+.DS_Store
