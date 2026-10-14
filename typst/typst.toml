@@ -1,0 +1,7 @@
+[package]
+name = "template"
+version = "0.1.0"
+entrypoint = "conf.typ"
+authors = ["Søren Holst Hansen"]
+license = "MIT"
+description = "Some template"
