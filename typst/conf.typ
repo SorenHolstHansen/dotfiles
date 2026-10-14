@@ -42,9 +42,23 @@
   it
 }
 
+#let theorem = it => {
+  rect(
+    width: 100%,
+    stroke: (left: 1pt + black),
+    it
+  )
+}
+
 /*
 #import "@local/template:0.1.0": *
 #show: template
+
+#theorem[
+  *Sætning*: Bayes' formel
+
+  Lad $A$ og $B$...
+]
 
 #show: pretty-diagram
 #lq.diagram(
