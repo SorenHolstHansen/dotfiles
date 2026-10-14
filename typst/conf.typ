@@ -16,6 +16,8 @@
   show heading: set block(above: 1.4em, below: 1em)
 
   set enum(numbering: "a)")
+
+  set table(stroke: 0.5pt, inset: 7pt)
   
   doc
 }
